@@ -17,7 +17,7 @@ cask "orbit-desktop" do
 
   auto_updates true
   conflicts_with cask: "orbit"
-  depends_on :macos
+  depends_on macos: :ventura
 
   app "Orbit.app"
 
