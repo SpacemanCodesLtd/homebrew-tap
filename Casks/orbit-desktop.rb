@@ -1,9 +1,9 @@
 cask "orbit-desktop" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.5.3"
-  sha256 arm:   "d8f0135067b3b6e3562932ff997682154d284709c7aed0a1ffb318341e15782d",
-         intel: "3352c74e530ee3e4a7ae69c502f41987bd125cc5f5c6b0f9006639148e8867a9"
+  version "0.6.0"
+  sha256 arm:   "86d415d418d3e2cd07f1d78faaaa21151c5548f33c7480bffdbeba3f6f4866cc",
+         intel: "0ed2dc51220f471072c342d1c063bac5dd95d03c2bb93a2cbd70a5b8100e14c7"
 
   url "https://updates.orbitdesktop.com/Orbit-#{version}-#{arch}.dmg"
   name "Orbit"
